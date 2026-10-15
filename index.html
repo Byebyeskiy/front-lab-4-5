@@ -1,59 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>FlowTask</title>
-  <meta name="robots" content="noindex">
+  <title>FlowTask — project management for teams</title>
+  <meta name="description" content="Plan your week, run sprints and automate teamwork with FlowTask. Compare workspace plans and explore a 14-day Pro trial.">
+  <link rel="canonical" href="https://byebyeskiy.github.io/front-lab-4-5/">
+  <meta property="og:title" content="FlowTask — project management for teams">
+  <meta property="og:description" content="Plan your week, run sprints and automate teamwork with FlowTask. Compare workspace plans and explore a 14-day Pro trial.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://byebyeskiy.github.io/front-lab-4-5/">
+  <meta property="og:image" content="https://byebyeskiy.github.io/front-lab-4-5/img/hero-1200.webp">
+  <meta property="og:image:alt" content="FlowTask task board with project columns">
   <link rel="icon" href="img/logo.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/styles.css">
-  <script src="js/main.js"></script>
+  <script src="js/main.js" defer></script>
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "FlowTask Pro",
-    "description": "Project management for teams that ship every week.",
-    "brand": {
-      "@type": "Brand",
-      "name": "FlowTask"
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "1284"
-    },
-    "offers": {
-      "@type": "Offer",
-      "price": "19.00",
-      "priceCurrency": "USD",
-      "availability": "https://schema.org/InStock"
-    }
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "FlowTask Pro",
+  "description": "Project management for teams that ship every week.",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Web browser",
+  "url": "https://byebyeskiy.github.io/front-lab-4-5/",
+  "offers": {
+    "@type": "Offer",
+    "name": "Pro monthly workspace plan",
+    "price": "29.00",
+    "priceCurrency": "USD",
+    "url": "https://byebyeskiy.github.io/front-lab-4-5/#pricing"
   }
+}
   </script>
 </head>
 <body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<aside class="promo" aria-label="Seasonal offer">
+  <strong>Autumn offer</strong> 3 months of Pro for the price of one. <a href="#pricing">See plans</a>
+</aside>
 
 <header class="site-header">
   <div class="site-header__inner">
     <img class="logo" src="img/logo.svg" alt="FlowTask" width="132" height="28">
 
-    <nav class="nav" role="navigation" aria-label="Main navigation">
-      <div class="nav-item" data-target="features">Product</div>
-      <div class="nav-item" data-target="pricing">Pricing</div>
-      <div class="nav-item" data-target="faq">FAQ</div>
-      <div class="nav-item" data-target="trial">Trial</div>
+    <nav class="nav" aria-label="Main navigation">
+      <a class="nav-item" href="#features">Product</a>
+      <a class="nav-item" href="#pricing">Pricing</a>
+      <a class="nav-item" href="#faq">FAQ</a>
+      <a class="nav-item" href="#trial">Trial</a>
     </nav>
 
     <div class="site-header__actions">
       <a class="link-quiet" href="about.html">About</a>
-      <a class="link-quiet" href="#" aria-label="Sign in">Sign in</a>
-      <button class="btn btn--primary" role="button" aria-label="Get started button" id="header-cta">Get started</button>
+      <a class="link-quiet" href="about.html#demo">Sign in<span class="sr-only"> (demo information)</span></a>
+      <button class="btn btn--primary" type="button" id="header-cta">Get started</button>
     </div>
   </div>
 </header>
 
-<main>
+<main id="main" tabindex="-1">
 
   <section class="hero">
     <div class="shell hero__grid">
@@ -61,27 +67,27 @@
         <h1>FlowTask</h1>
         <p class="hero__lead">Plan the week, run the sprint and ship on Friday — without three
           different tools arguing about who owns what.</p>
-        <div class="button button--primary button--lg" id="hero-cta">Get started</div>
+        <button class="button button--primary button--lg" type="button" id="hero-cta">Get started</button>
         <p class="hero__note muted">Free for 14 days. No credit card required.</p>
       </div>
-      <img class="hero__image" src="img/hero.jpg">
+      <img class="hero__image" src="img/hero-1200.webp" srcset="img/hero-640.webp 640w, img/hero-1200.webp 1200w" sizes="(max-width: 900px) calc(100vw - 48px), 500px" alt="FlowTask project board with tasks organized into columns" width="1200" height="750" fetchpriority="high">
     </div>
   </section>
 
   <section class="section section--alt" id="features">
     <div class="shell">
       <div class="section__head">
-        <h4>Why FlowTask?</h4>
+        <h2 class="features-title">Why FlowTask?</h2>
         <p class="muted">Three things teams ask us for, built in rather than bolted on.</p>
       </div>
 
       <div class="grid-3">
         <div class="card">
-          <img class="card__icon" src="img/feature-1.svg" alt="icon" width="40" height="40">
+          <img class="card__icon" src="img/feature-1.svg" alt="" width="40" height="40">
           <h3>Boards that match your process</h3>
           <p class="soft">Columns, swimlanes and WIP limits you can change on a Monday morning
             without filing a ticket with anyone.</p>
-          <a class="card__link" href="#">Learn more</a>
+          <a class="card__link" href="#how">Learn more<span class="sr-only"> about board setup</span></a>
         </div>
 
         <div class="card">
@@ -89,7 +95,7 @@
           <h3>Automations without scripts</h3>
           <p class="muted">Move a card, notify a channel, close the loop. Rules are plain
             sentences, so the whole team can read them.</p>
-          <a class="card__link" href="#">Learn more</a>
+          <a class="card__link" href="#how">Learn more<span class="sr-only"> about workflow automation</span></a>
         </div>
 
         <div class="card">
@@ -97,7 +103,7 @@
           <h3>Reports that answer questions</h3>
           <p class="muted">Cycle time, throughput and the one chart your manager actually opens
             before the weekly review.</p>
-          <a class="card__link" href="#">Learn more</a>
+          <a class="card__link" href="#how">Learn more<span class="sr-only"> about team reports</span></a>
         </div>
       </div>
     </div>
@@ -131,7 +137,7 @@
         </div>
       </div>
 
-      <p><a href="#pricing-details">See the full plan comparison</a></p>
+      <p><a href="#pricing">See the full plan comparison</a></p>
     </div>
   </section>
 
@@ -152,7 +158,7 @@
             <li>Basic support</li>
           </ul>
           <div class="plan__cta">
-            <a class="card__link" href="#">Read more</a>
+            <a class="card__link" href="#trial">Read more<span class="sr-only"> about trying Basic</span></a>
           </div>
         </div>
 
@@ -166,7 +172,7 @@
             <li>Automations</li>
           </ul>
           <div class="plan__cta">
-            <a class="card__link" href="#">Read more</a>
+            <a class="card__link" href="#trial">Read more<span class="sr-only"> about trying Pro</span></a>
           </div>
         </div>
 
@@ -180,7 +186,7 @@
             <li>SSO and audit log</li>
           </ul>
           <div class="plan__cta">
-            <a class="card__link" href="#">Read more</a>
+            <a class="card__link" href="#trial">Read more<span class="sr-only"> about trying Enterprise</span></a>
           </div>
         </div>
       </div>
@@ -240,32 +246,32 @@
       <div class="faq">
 
       <div class="faq__item">
-        <button class="faq__q" type="button" aria-expanded="true">Can I move my data out again?</button>
-        <div class="faq__a">
+        <button class="faq__q" type="button" aria-expanded="false" aria-controls="faq-answer-1">Can I move my data out again?</button>
+        <div class="faq__a" id="faq-answer-1" hidden>
           <p>Yes. Every board exports to CSV and JSON, including comments and history, and the
             export runs on demand rather than on a schedule.</p>
         </div>
       </div>
 
       <div class="faq__item">
-        <button class="faq__q" type="button" aria-expanded="true">Do you offer a student plan?</button>
-        <div class="faq__a">
+        <button class="faq__q" type="button" aria-expanded="false" aria-controls="faq-answer-2">Do you offer a student plan?</button>
+        <div class="faq__a" id="faq-answer-2" hidden>
           <p>Students and non-profits get Pro at no cost for a year. Write to us from an
             institutional address and we will switch the workspace over.</p>
         </div>
       </div>
 
       <div class="faq__item">
-        <button class="faq__q" type="button" aria-expanded="true">Where is my data stored?</button>
-        <div class="faq__a">
+        <button class="faq__q" type="button" aria-expanded="false" aria-controls="faq-answer-3">Where is my data stored?</button>
+        <div class="faq__a" id="faq-answer-3" hidden>
           <p>In the EU by default. Enterprise workspaces can pin storage to a specific region and
             receive an audit log of every access.</p>
         </div>
       </div>
 
       <div class="faq__item">
-        <button class="faq__q" type="button" aria-expanded="true">What happens after the trial?</button>
-        <div class="faq__a">
+        <button class="faq__q" type="button" aria-expanded="false" aria-controls="faq-answer-4">What happens after the trial?</button>
+        <div class="faq__a" id="faq-answer-4" hidden>
           <p>The workspace becomes read-only for thirty days. Nothing is deleted until you ask us
             to delete it.</p>
         </div>
@@ -281,11 +287,24 @@
         <p class="trial__lead">Fourteen days of Pro, for the whole team. We will email you once,
           on the last day.</p>
 
-        <form class="trial__form" id="trial-form">
-          <input class="trial__input" type="text" name="name" placeholder="Your name">
-          <input class="trial__input" type="email" name="email" placeholder="Work email">
-          <input class="trial__input" type="text" name="company" placeholder="Company">
-          <div class="button button--invert" role="button" tabindex="0" id="trial-submit">Start free trial</div>
+        <form class="trial__form" id="trial-form" novalidate>
+          <div class="trial__field">
+            <label for="trial-name">Your name</label>
+            <input class="trial__input" id="trial-name" type="text" name="name" autocomplete="name" required aria-describedby="name-error">
+            <span class="field-error" id="name-error"></span>
+          </div>
+          <div class="trial__field">
+            <label for="trial-email">Work email</label>
+            <input class="trial__input" id="trial-email" type="email" name="email" autocomplete="email" required aria-describedby="email-error">
+            <span class="field-error" id="email-error"></span>
+          </div>
+          <div class="trial__field">
+            <label for="trial-company">Company (optional)</label>
+            <input class="trial__input" id="trial-company" type="text" name="company" autocomplete="organization">
+          </div>
+          <button class="button button--invert" type="submit" id="trial-submit">Start free trial</button>
+          <p class="trial__status" id="trial-status" role="status"></p>
+          <p class="trial__demo">Coursework demo: no account is created and no email is sent.</p>
         </form>
       </div>
     </div>
@@ -300,17 +319,17 @@
         <img src="img/logo.svg" alt="FlowTask" width="132" height="28">
         <p class="muted">Project management for teams that ship every week.</p>
         <div class="social">
-          <a href="#">
+          <a href="about.html#demo" aria-label="X — demo information">
             <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true">
               <path d="M10.6 7.6 15.3 2h-1.5l-4 4.9L6.4 2H2l5 7.3L2 15.5h1.5l4.2-5.2 3.5 5.2H16l-5.4-7.9Z" fill="#374151"/>
             </svg>
           </a>
-          <a href="#">
+          <a href="about.html#demo" aria-label="GitHub — demo information">
             <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true">
               <path d="M9 1.5a7.5 7.5 0 0 0-2.4 14.6c.4.1.5-.2.5-.4v-1.4c-2 .4-2.5-.5-2.7-1-.1-.3-.6-1-1-1.2-.3-.2-.8-.6 0-.6.7 0 1.2.7 1.4 1 .8 1.3 2 1 2.5.7.1-.6.3-1 .6-1.2-1.8-.2-3.7-.9-3.7-4 0-.9.3-1.6.8-2.2-.1-.2-.4-1 .1-2.1 0 0 .7-.2 2.2.8a7.4 7.4 0 0 1 4 0c1.5-1 2.2-.8 2.2-.8.5 1.1.2 1.9.1 2.1.5.6.8 1.3.8 2.2 0 3.1-1.9 3.8-3.7 4 .3.3.6.8.6 1.6v2.3c0 .2.1.5.5.4A7.5 7.5 0 0 0 9 1.5Z" fill="#374151"/>
             </svg>
           </a>
-          <a href="#">
+          <a href="about.html#demo" aria-label="LinkedIn — demo information">
             <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true">
               <path d="M3.4 6.4h2.8v9H3.4v-9Zm1.4-4.2a1.6 1.6 0 1 1 0 3.2 1.6 1.6 0 0 1 0-3.2ZM8 6.4h2.7v1.2h.1c.4-.7 1.3-1.4 2.7-1.4 2.9 0 3.4 1.8 3.4 4.2v4.9h-2.8v-4.4c0-1 0-2.4-1.5-2.4s-1.7 1.1-1.7 2.3v4.5H8v-9Z" fill="#374151"/>
             </svg>
@@ -331,17 +350,17 @@
         <div class="site-footer__title">Company</div>
         <ul>
           <li><a href="about.html">About</a></li>
-          <li><a href="#">Careers</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="about.html#demo">Careers<span class="sr-only"> (demo information)</span></a></li>
+          <li><a href="about.html#demo">Contact<span class="sr-only"> (demo information)</span></a></li>
         </ul>
       </div>
 
       <div>
         <div class="site-footer__title">Resources</div>
         <ul>
-          <li><a href="#">Docs</a></li>
-          <li><a href="#">Changelog</a></li>
-          <li><a href="#">Status</a></li>
+          <li><a href="about.html#demo">Docs<span class="sr-only"> (demo information)</span></a></li>
+          <li><a href="about.html#demo">Changelog<span class="sr-only"> (demo information)</span></a></li>
+          <li><a href="about.html#demo">Status<span class="sr-only"> (demo information)</span></a></li>
         </ul>
       </div>
     </div>

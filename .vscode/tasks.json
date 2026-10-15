@@ -1,0 +1,8 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    { "label": "FlowTask: start", "type": "npm", "script": "start", "isBackground": true, "problemMatcher": [] },
+    { "label": "FlowTask: test", "type": "npm", "script": "test", "group": { "kind": "test", "isDefault": true }, "problemMatcher": [] },
+    { "label": "FlowTask: prepare static site", "type": "npm", "script": "prepare:site", "problemMatcher": [] }
+  ]
+}

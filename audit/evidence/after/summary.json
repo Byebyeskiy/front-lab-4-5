@@ -1,0 +1,380 @@
+{
+  "base": "http://127.0.0.1:8000/",
+  "phase": "after",
+  "timestamp": "2026-10-15T10:17:37.352Z",
+  "browser": "154.0.8037.57",
+  "pages": {
+    "index": {
+      "violations": [],
+      "incomplete": [],
+      "headings": [
+        "FlowTask",
+        "Why FlowTask?",
+        "Boards that match your process",
+        "Automations without scripts",
+        "Reports that answer questions",
+        "How it works",
+        "Import your backlog",
+        "Shape the board",
+        "Invite the team",
+        "Pricing",
+        "Basic",
+        "Pro",
+        "Enterprise",
+        "What teams say",
+        "Frequently asked questions",
+        "Start your free trial"
+      ],
+      "seo": {
+        "title": "FlowTask — project management for teams",
+        "lang": "en",
+        "description": "Plan your week, run sprints and automate teamwork with FlowTask. Compare workspace plans and explore a 14-day Pro trial.",
+        "canonical": "https://byebyeskiy.github.io/front-lab-4-5/",
+        "og": [
+          [
+            "og:title",
+            "FlowTask — project management for teams"
+          ],
+          [
+            "og:description",
+            "Plan your week, run sprints and automate teamwork with FlowTask. Compare workspace plans and explore a 14-day Pro trial."
+          ],
+          [
+            "og:type",
+            "website"
+          ],
+          [
+            "og:url",
+            "https://byebyeskiy.github.io/front-lab-4-5/"
+          ],
+          [
+            "og:image",
+            "https://byebyeskiy.github.io/front-lab-4-5/img/hero-1200.webp"
+          ],
+          [
+            "og:image:alt",
+            "FlowTask task board with project columns"
+          ]
+        ],
+        "jsonld": [
+          {
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "FlowTask Pro",
+            "description": "Project management for teams that ship every week.",
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Web browser",
+            "url": "https://byebyeskiy.github.io/front-lab-4-5/",
+            "offers": {
+              "@type": "Offer",
+              "name": "Pro monthly workspace plan",
+              "price": "29.00",
+              "priceCurrency": "USD",
+              "url": "https://byebyeskiy.github.io/front-lab-4-5/#pricing"
+            }
+          }
+        ],
+        "brokenFragments": []
+      },
+      "performance": {
+        "lcp": [
+          {
+            "time": 236,
+            "tag": "IMG",
+            "className": "hero__image",
+            "url": "http://127.0.0.1:8000/img/hero-640.webp"
+          }
+        ],
+        "shifts": [
+          {
+            "value": 0.00020822155611014662,
+            "recentInput": false,
+            "sources": [
+              null,
+              "site-header__actions",
+              "nav-item",
+              "nav-item",
+              "nav-item"
+            ]
+          }
+        ],
+        "events": []
+      }
+    },
+    "about": {
+      "violations": [],
+      "incomplete": [],
+      "headings": [
+        "About FlowTask",
+        "What we build",
+        "How we work",
+        "Where we are",
+        "Talk to us"
+      ],
+      "seo": {
+        "title": "About FlowTask — our team and product",
+        "lang": "en",
+        "description": "Meet the fictional FlowTask team: one task board with automations and reporting, built by a distributed team across Kyiv, Lisbon and Toronto.",
+        "canonical": "https://byebyeskiy.github.io/front-lab-4-5/about.html",
+        "og": [
+          [
+            "og:title",
+            "About FlowTask — our team and product"
+          ],
+          [
+            "og:description",
+            "Meet the fictional FlowTask team: one task board with automations and reporting, built by a distributed team across Kyiv, Lisbon and Toronto."
+          ],
+          [
+            "og:type",
+            "website"
+          ],
+          [
+            "og:url",
+            "https://byebyeskiy.github.io/front-lab-4-5/about.html"
+          ],
+          [
+            "og:image",
+            "https://byebyeskiy.github.io/front-lab-4-5/img/hero-1200.webp"
+          ],
+          [
+            "og:image:alt",
+            "FlowTask task board with project columns"
+          ]
+        ],
+        "jsonld": [],
+        "brokenFragments": []
+      },
+      "performance": {
+        "lcp": [
+          {
+            "time": 92,
+            "tag": "P",
+            "className": "",
+            "url": ""
+          }
+        ],
+        "shifts": [],
+        "events": []
+      }
+    }
+  },
+  "tabs": [
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Skip to main content",
+      "outline": "solid",
+      "top": 10,
+      "bottom": 62.046875
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "See plans",
+      "outline": "solid",
+      "top": 63.34375,
+      "bottom": 82.34375
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Product",
+      "outline": "solid",
+      "top": 142.71875,
+      "bottom": 167.46875
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Pricing",
+      "outline": "solid",
+      "top": 142.71875,
+      "bottom": 167.46875
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "FAQ",
+      "outline": "solid",
+      "top": 142.71875,
+      "bottom": 167.46875
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Trial",
+      "outline": "solid",
+      "top": 142.71875,
+      "bottom": 167.46875
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "About",
+      "outline": "solid",
+      "top": 142.71875,
+      "bottom": 167.46875
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Sign in (demo information)",
+      "outline": "solid",
+      "top": 142.71875,
+      "bottom": 167.46875
+    },
+    {
+      "tag": "BUTTON",
+      "id": "header-cta",
+      "text": "Get started",
+      "outline": "solid",
+      "top": 134.09375,
+      "bottom": 176.09375
+    },
+    {
+      "tag": "BUTTON",
+      "id": "hero-cta",
+      "text": "Get started",
+      "outline": "solid",
+      "top": 462.125,
+      "bottom": 514.515625
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Learn more about board setup",
+      "outline": "solid",
+      "top": 490.140625,
+      "bottom": 509.140625
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Learn more about workflow automation",
+      "outline": "solid",
+      "top": 466.140625,
+      "bottom": 485.140625
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Learn more about team reports",
+      "outline": "solid",
+      "top": 462.09375,
+      "bottom": 481.09375
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "See the full plan comparison",
+      "outline": "solid",
+      "top": 490.171875,
+      "bottom": 510.171875
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Read more about trying Basic",
+      "outline": "solid",
+      "top": 490.0625,
+      "bottom": 509.0625
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Read more about trying Pro",
+      "outline": "solid",
+      "top": 490.0625,
+      "bottom": 509.0625
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Read more about trying Enterprise",
+      "outline": "solid",
+      "top": 490.0625,
+      "bottom": 509.0625
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Can I move my data out again?",
+      "outline": "solid",
+      "top": 465.734375,
+      "bottom": 533.78125
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Do you offer a student plan?",
+      "outline": "solid",
+      "top": 534.78125,
+      "bottom": 602.828125
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Where is my data stored?",
+      "outline": "solid",
+      "top": 603.828125,
+      "bottom": 671.875
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "What happens after the trial?",
+      "outline": "solid",
+      "top": 672.875,
+      "bottom": 740.921875
+    },
+    {
+      "tag": "INPUT",
+      "id": "trial-name",
+      "text": "",
+      "outline": "solid",
+      "top": 529.90625,
+      "bottom": 580.65625
+    },
+    {
+      "tag": "INPUT",
+      "id": "trial-email",
+      "text": "",
+      "outline": "solid",
+      "top": 529.90625,
+      "bottom": 580.65625
+    },
+    {
+      "tag": "INPUT",
+      "id": "trial-company",
+      "text": "",
+      "outline": "solid",
+      "top": 529.90625,
+      "bottom": 580.65625
+    },
+    {
+      "tag": "BUTTON",
+      "id": "trial-submit",
+      "text": "Start free trial",
+      "outline": "solid",
+      "top": 529.8125,
+      "bottom": 571.8125
+    }
+  ],
+  "faq": {
+    "before": {
+      "expanded": "false",
+      "visible": false
+    },
+    "after": {
+      "expanded": "true",
+      "visible": true
+    }
+  },
+  "signupHandlerMs": 0.9000000000232831,
+  "errors": [],
+  "mobileOverflow": {
+    "viewport": 390,
+    "scrollWidth": 390
+  }
+}

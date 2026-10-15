@@ -1,35 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>FlowTask</title>
+  <title>About FlowTask — our team and product</title>
+  <meta name="description" content="Meet the fictional FlowTask team: one task board with automations and reporting, built by a distributed team across Kyiv, Lisbon and Toronto.">
+  <link rel="canonical" href="https://byebyeskiy.github.io/front-lab-4-5/about.html">
+  <meta property="og:title" content="About FlowTask — our team and product">
+  <meta property="og:description" content="Meet the fictional FlowTask team: one task board with automations and reporting, built by a distributed team across Kyiv, Lisbon and Toronto.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://byebyeskiy.github.io/front-lab-4-5/about.html">
+  <meta property="og:image" content="https://byebyeskiy.github.io/front-lab-4-5/img/hero-1200.webp">
+  <meta property="og:image:alt" content="FlowTask task board with project columns">
   <link rel="icon" href="img/logo.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/styles.css">
-  <script src="js/main.js"></script>
+  <script src="js/main.js" defer></script>
 </head>
 <body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<aside class="promo" aria-label="Seasonal offer">
+  <strong>Autumn offer</strong> 3 months of Pro for the price of one. <a href="index.html#pricing">See plans</a>
+</aside>
 
 <header class="site-header">
   <div class="site-header__inner">
     <img class="logo" src="img/logo.svg" alt="FlowTask" width="132" height="28">
 
-    <nav class="nav" role="navigation" aria-label="Main navigation">
-      <div class="nav-item">Product</div>
-      <div class="nav-item">Pricing</div>
-      <div class="nav-item">FAQ</div>
-      <div class="nav-item">Trial</div>
+    <nav class="nav" aria-label="Main navigation">
+      <a class="nav-item" href="index.html#features">Product</a>
+      <a class="nav-item" href="index.html#pricing">Pricing</a>
+      <a class="nav-item" href="index.html#faq">FAQ</a>
+      <a class="nav-item" href="index.html#trial">Trial</a>
     </nav>
 
     <div class="site-header__actions">
       <a class="link-quiet" href="index.html">Home</a>
-      <a class="link-quiet" href="#" aria-label="Sign in">Sign in</a>
-      <button class="btn btn--primary" role="button" aria-label="Get started button" id="header-cta">Get started</button>
+      <a class="link-quiet" href="about.html#demo">Sign in<span class="sr-only"> (demo information)</span></a>
+      <button class="btn btn--primary" type="button" id="header-cta">Get started</button>
     </div>
   </div>
 </header>
 
-<main>
+<main id="main" tabindex="-1">
   <section class="page-head">
     <div class="shell">
       <h1>About FlowTask</h1>
@@ -50,14 +62,14 @@
 
       <h2>How we work</h2>
       <p>Everything ships behind a flag, every change is reversible for thirty days, and support is
-        answered by the people who wrote the code. There is no tier of the product that unlocks a
-        faster reply.</p>
+        answered by the people who wrote the code. Support availability follows the plans on our pricing page.</p>
 
       <h2>Where we are</h2>
       <p>Twelve people across Kyiv, Lisbon and Toronto. Data lives in the EU by default, and
         Enterprise workspaces can pin it to a region of their choosing.</p>
 
-      <h2>Talk to us</h2>
+      <h2 id="demo">Talk to us</h2>
+      <p>FlowTask is a fictional coursework product. Sign-in, social accounts, careers, docs, changelog and service status are not live services. The trial form demonstrates local validation only; it sends no data.</p>
       <p class="soft">Write to hello@flowtask.example — we answer within one working day, and the
         reply comes from a person rather than a queue.</p>
     </div>
@@ -85,17 +97,17 @@
         <div class="site-footer__title">Company</div>
         <ul>
           <li><a href="about.html">About</a></li>
-          <li><a href="#">Careers</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="about.html#demo">Careers<span class="sr-only"> (demo information)</span></a></li>
+          <li><a href="about.html#demo">Contact<span class="sr-only"> (demo information)</span></a></li>
         </ul>
       </div>
 
       <div>
         <div class="site-footer__title">Resources</div>
         <ul>
-          <li><a href="#">Docs</a></li>
-          <li><a href="#">Changelog</a></li>
-          <li><a href="#">Status</a></li>
+          <li><a href="about.html#demo">Docs<span class="sr-only"> (demo information)</span></a></li>
+          <li><a href="about.html#demo">Changelog<span class="sr-only"> (demo information)</span></a></li>
+          <li><a href="about.html#demo">Status<span class="sr-only"> (demo information)</span></a></li>
         </ul>
       </div>
     </div>

@@ -1,0 +1,6 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    { "name": "FlowTask: Chrome (run npm start first)", "type": "chrome", "request": "launch", "url": "http://127.0.0.1:8000", "webRoot": "${workspaceFolder}" }
+  ]
+}

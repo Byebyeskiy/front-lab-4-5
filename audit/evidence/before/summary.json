@@ -1,0 +1,344 @@
+{
+  "base": "http://127.0.0.1:8000/",
+  "phase": "before",
+  "timestamp": "2026-10-15T10:12:03.860Z",
+  "browser": "154.0.8037.57",
+  "pages": {
+    "index": {
+      "violations": [
+        {
+          "id": "color-contrast",
+          "nodes": 18
+        },
+        {
+          "id": "heading-order",
+          "nodes": 1
+        },
+        {
+          "id": "html-has-lang",
+          "nodes": 1
+        },
+        {
+          "id": "image-alt",
+          "nodes": 1
+        },
+        {
+          "id": "link-name",
+          "nodes": 3
+        },
+        {
+          "id": "region",
+          "nodes": 1
+        },
+        {
+          "id": "target-size",
+          "nodes": 3
+        }
+      ],
+      "incomplete": [],
+      "headings": [
+        "FlowTask",
+        "Why FlowTask?",
+        "Boards that match your process",
+        "Automations without scripts",
+        "Reports that answer questions",
+        "How it works",
+        "Import your backlog",
+        "Shape the board",
+        "Invite the team",
+        "Pricing",
+        "Basic",
+        "Pro",
+        "Enterprise",
+        "What teams say",
+        "Frequently asked questions",
+        "Start your free trial"
+      ],
+      "seo": {
+        "title": "FlowTask",
+        "lang": "",
+        "robots": "noindex",
+        "og": [],
+        "jsonld": [
+          {
+            "@context": "https://schema.org",
+            "@type": "Product",
+            "name": "FlowTask Pro",
+            "description": "Project management for teams that ship every week.",
+            "brand": {
+              "@type": "Brand",
+              "name": "FlowTask"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.9",
+              "reviewCount": "1284"
+            },
+            "offers": {
+              "@type": "Offer",
+              "price": "19.00",
+              "priceCurrency": "USD",
+              "availability": "https://schema.org/InStock"
+            }
+          }
+        ],
+        "brokenFragments": [
+          "#pricing-details"
+        ]
+      },
+      "performance": {
+        "lcp": [
+          {
+            "time": 476,
+            "tag": "IMG",
+            "className": "hero__image",
+            "url": "http://127.0.0.1:8000/img/hero.jpg"
+          }
+        ],
+        "shifts": [
+          {
+            "value": 0.00005821311668113426,
+            "recentInput": false,
+            "sources": [
+              "site-header__actions",
+              "nav-item",
+              "nav-item",
+              "nav-item"
+            ]
+          },
+          {
+            "value": 0.07513515625,
+            "recentInput": false,
+            "sources": [
+              ""
+            ]
+          }
+        ],
+        "events": []
+      }
+    },
+    "about": {
+      "violations": [
+        {
+          "id": "color-contrast",
+          "nodes": 4
+        },
+        {
+          "id": "html-has-lang",
+          "nodes": 1
+        },
+        {
+          "id": "region",
+          "nodes": 1
+        }
+      ],
+      "incomplete": [],
+      "headings": [
+        "About FlowTask",
+        "What we build",
+        "How we work",
+        "Where we are",
+        "Talk to us"
+      ],
+      "seo": {
+        "title": "FlowTask",
+        "lang": "",
+        "og": [],
+        "jsonld": [],
+        "brokenFragments": [
+          "#pricing"
+        ]
+      },
+      "performance": {
+        "lcp": [
+          {
+            "time": 48,
+            "tag": "P",
+            "className": "",
+            "url": ""
+          }
+        ],
+        "shifts": [
+          {
+            "value": 0.07513515625,
+            "recentInput": false,
+            "sources": [
+              ""
+            ]
+          }
+        ],
+        "events": []
+      }
+    }
+  },
+  "tabs": [
+    {
+      "tag": "A",
+      "id": "",
+      "text": "See plans",
+      "outline": "none",
+      "top": 63.34375,
+      "bottom": 82.34375
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "About",
+      "outline": "none",
+      "top": 142.71875,
+      "bottom": 167.46875
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Sign in",
+      "outline": "none",
+      "top": 142.71875,
+      "bottom": 167.46875
+    },
+    {
+      "tag": "BUTTON",
+      "id": "header-cta",
+      "text": "Get started button",
+      "outline": "none",
+      "top": 134.09375,
+      "bottom": 176.09375
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Learn more",
+      "outline": "none",
+      "top": 490.140625,
+      "bottom": 509.140625
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Learn more",
+      "outline": "none",
+      "top": 466.140625,
+      "bottom": 485.140625
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Learn more",
+      "outline": "none",
+      "top": 462.09375,
+      "bottom": 481.09375
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "See the full plan comparison",
+      "outline": "none",
+      "top": 490.171875,
+      "bottom": 510.171875
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Read more",
+      "outline": "none",
+      "top": 490.0625,
+      "bottom": 509.0625
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Read more",
+      "outline": "none",
+      "top": 490.0625,
+      "bottom": 509.0625
+    },
+    {
+      "tag": "A",
+      "id": "",
+      "text": "Read more",
+      "outline": "none",
+      "top": 490.0625,
+      "bottom": 509.0625
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Can I move my data out again?",
+      "outline": "none",
+      "top": 465.734375,
+      "bottom": 533.78125
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Do you offer a student plan?",
+      "outline": "none",
+      "top": 534.78125,
+      "bottom": 602.828125
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Where is my data stored?",
+      "outline": "none",
+      "top": 603.828125,
+      "bottom": 671.875
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "What happens after the trial?",
+      "outline": "none",
+      "top": 672.875,
+      "bottom": 740.921875
+    },
+    {
+      "tag": "INPUT",
+      "id": "",
+      "text": "",
+      "outline": "none",
+      "top": 478.8125,
+      "bottom": 529.5625
+    },
+    {
+      "tag": "INPUT",
+      "id": "",
+      "text": "",
+      "outline": "none",
+      "top": 478.8125,
+      "bottom": 529.5625
+    },
+    {
+      "tag": "INPUT",
+      "id": "",
+      "text": "",
+      "outline": "none",
+      "top": 478.8125,
+      "bottom": 529.5625
+    },
+    {
+      "tag": "DIV",
+      "id": "trial-submit",
+      "text": "Start free trial",
+      "outline": "none",
+      "top": 478.8125,
+      "bottom": 529.5625
+    }
+  ],
+  "faq": {
+    "before": {
+      "expanded": "true",
+      "visible": false
+    },
+    "after": {
+      "expanded": "true",
+      "visible": true
+    }
+  },
+  "signupHandlerMs": 300.4000000000233,
+  "errors": [],
+  "mobileOverflow": {
+    "viewport": 390,
+    "scrollWidth": 395
+  }
+}

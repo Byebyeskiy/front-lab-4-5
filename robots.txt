@@ -1,4 +1,5 @@
 User-agent: *
-Disallow: /css/
-Disallow: /img/
+Allow: /
 Disallow: /admin/
+
+Sitemap: https://byebyeskiy.github.io/front-lab-4-5/sitemap.xml
